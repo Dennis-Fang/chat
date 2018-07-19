@@ -1,0 +1,6 @@
+第一种：
+	ml /coff t1.asm /link /subsystem:console
+	
+第二种:
+	ml /c t1.asm
+	link16 t1.obj (除非要改变生成文件名或者生成中间文件，否则直接回车至提示完成)
